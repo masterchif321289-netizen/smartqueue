@@ -1,0 +1,39 @@
+nav{
+    background:#2563eb;
+    padding:15px 30px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#ffd43b;
+
+}
+
+nav a.active{
+
+    border-bottom:3px solid white;
+
+    padding-bottom:5px;
+
+}
