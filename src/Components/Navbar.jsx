@@ -11,15 +11,15 @@ function Navbar() {
         Inicio
       </NavLink>
 
-      <NavLink to="/turnos">
+      <NavLink to="/Turnos">
         Turnos
       </NavLink>
 
-      <NavLink to="/admin">
+      <NavLink to="/Admin">
         Administrador
       </NavLink>
 
-      <NavLink to="/dashboard">
+      <NavLink to="/Dashboard">
         Dashboard
       </NavLink>
 
