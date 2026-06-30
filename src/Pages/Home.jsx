@@ -1,4 +1,4 @@
-import { crearTurno } from "../services/turnoService";
+import { crearTurno } from "../Services/turnoService";
 
 function Home() {
 

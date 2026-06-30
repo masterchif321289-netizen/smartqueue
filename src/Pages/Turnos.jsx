@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import Card from "../components/Card";
-import supabase from "../services/supabase";
-import { crearTurno, obtenerTurnos } from "../services/turnoService";
+import Card from "../Components/Card";
+import supabase from "../Services/supabase";
+import { crearTurno, obtenerTurnos } from "../Services/turnoService";
 
 function Turnos() {
 

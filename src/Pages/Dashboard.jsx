@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import supabase from "../services/supabase";
-import "../styles/dashboard.css";
+import supabase from "../Services/supabase";
+import "../Styles/Dashboard.css";
 import {
   obtenerTurnos,
   obtenerTurnoActual
-} from "../services/turnoService";
+} from "../Services/turnoService";
 
 function Dashboard() {
 

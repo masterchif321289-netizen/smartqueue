@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import supabase from "../services/supabase";
-import "../styles/admin.css";
+import supabase from "../Services/supabase";
+import "../Styles/Admin.css";
 import {
   obtenerTurnos,
   llamarSiguiente,
   obtenerTurnoActual,
   finalizarTurno
-} from "../services/turnoService";
+} from "../Services/turnoService";
 
 function Admin() {
 
