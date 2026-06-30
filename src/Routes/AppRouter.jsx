@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../Components/Navbar";
 
-import Home from "../pages/Home";
-import Turnos from "../pages/Turnos";
-import Admin from "../pages/Admin";
-import Dashboard from "../pages/Dashboard";
+import Home from "../Pages/Home";
+import Turnos from "../Pages/Turnos";
+import Admin from "../Pages/Admin";
+import Dashboard from "../Pages/Dashboard";
 
 function AppRouter() {
 
